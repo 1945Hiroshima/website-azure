@@ -31,5 +31,5 @@ document.getElementById('imcForm').addEventListener('submit', function(e) {
   }
 
   // Exibir o resultado
-  document.getElementById('resultado').innerText = "Seu IMC é ${imc.toFixed(2)}. Classificação: ${resultado}";
+  document.getElementById('resultado').innerText = `Seu IMC é ${imc.toFixed(2)}. Classificação: ${resultado}`;
 });
